@@ -16,5 +16,8 @@ public class MainActivity extends AppCompatActivity {
         //1.代码获取资源示例
 //        TextView textView=findViewById(R.id.helloWorld);
 //        textView.setBackground(getResources().getDrawable(R.drawable.demo5));
+
+        //2.代码设置主题
+//        setTheme(R.style.AppTheme);
     }
 }
