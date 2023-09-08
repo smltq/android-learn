@@ -4,6 +4,7 @@ import androidx.annotation.IdRes;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,5 +24,13 @@ public class MainActivity extends AppCompatActivity {
         //3.字符串资源
         TextView textView=findViewById(R.id.helloWorld);
         textView.setText(getResources().getString(R.string.app_name));
+
+        //4.logcat
+        Log.v("MainActivity", "Verbose");
+        Log.d("MainActivity","Debug");
+        Log.i("MainActivity","Info");
+        Log.w("MainActivity", "Warning");
+        Log.e("MainActivity", "Error");
+        Log.wtf("MainActivity","Assert");
     }
 }
