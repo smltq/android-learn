@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
 //        textView.setText(getResources().getString(R.string.app_name));
 
         //4.logcat
-        Log.v("MainActivity", "Verbose");
-        Log.d("MainActivity","Debug");
-        Log.i("MainActivity","Info");
-        Log.w("MainActivity", "Warning");
-        Log.e("MainActivity", "Error");
-        Log.wtf("MainActivity","Assert");
+        Log.v("MainActivity.onCreate", "Verbose");
+        Log.d("MainActivity.onCreate","Debug");
+        Log.i("MainActivity.onCreate","Info");
+        Log.w("MainActivity.onCreate", "Warning");
+        Log.e("MainActivity.onCreate", "Error");
+        Log.wtf("MainActivity.onCreate","Assert");
     }
 }
