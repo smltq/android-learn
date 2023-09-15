@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/animal_bg"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:background="@drawable/three" />
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:background="@drawable/four" />
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:background="@drawable/box" />
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:background="@drawable/five" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:background="@drawable/one" />
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:text=""
+            android:background="@drawable/two" />
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:text=""
+            android:background="@drawable/box" />
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:text=""
+            android:background="@drawable/four" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:text=""
+            android:background="@drawable/five" />
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:text=""
+            android:background="@drawable/box" />
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:text=""
+            android:background="@drawable/three" />
+
+        <ImageButton
+            style="@style/btnStyle"
+            android:text=""
+            android:background="@drawable/two" />
+    </LinearLayout>
+
+</LinearLayout>
