@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="你好世界!"
         android:layout_marginLeft="1px"
-        style="@style/textViewStyle"/>
+        style="@style/textViewStyle"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
